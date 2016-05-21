@@ -21,8 +21,13 @@
                 {% endfor %}
             {% endif %}
         </aside>
-        <div class="excerpt">{{ post.excerpt }}</div>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info btn-lg">Lanjut ...</a>
+        <div class="
+            excerpt
+            {% if post.featured_image or post.featured_video_id %}
+                have-image
+            {% endif %}
+        ">{{ post.excerpt }}</div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info">Lanjut ...</a>
         {% if post.categories != empty %}
         <div class="tags">
             {% for tag in post.tags %}

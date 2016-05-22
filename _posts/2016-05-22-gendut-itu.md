@@ -203,60 +203,72 @@ adalah :
     </table>
 </div>
 
-<h3 class="special">
-    <span>
-        Bagaimana dengan Kamu?
-    </span>
-</h3>
+Pembahasan ini menjurus kembali kepada pernyataan penulis sebelumnya, yaitu
+jangan gunakan kekurangan orang lain sebagai bahan candaan. Bagi para pembaca yang
+senasib dengan penulis, jika Anda tersinggung karena orang lain bercanda tentang ukuran
+tubuh Anda katakanlah, “Bercanda boleh, tapi jangan gunakan kekurangan orang lain.”
+Katakan sambil menyentuh pundaknya dan tersenyum. Tetap semangat, dan raih berat
+badan ideal demi kesehatan. Semoga bermanfaat 
+<img src="https://twemoji.maxcdn.com/svg/1f609.svg" style="width: 32px;">
+.
 
-<style>
-    .cek, .cek .form-control {
-        font-size: 24px;
-        height: 32px;
-    }
-</style>
+<div class="hidden-sm hidden-xs">
+    <h3 class="special">
+        <span>
+            Bagaimana dengan Kamu?
+        </span>
+    </h3>
 
-<div style="border: 1px solid black;border-radius: 8px;padding: 32px;">
-    <form class="cek form-horizontal">
-        <div class="form-group">
-            <div class="col-xs-6 text-right">
-                <input
-                    class="form-control text-right"
-                    id="berat"
-                    size="3"
-                    style="width: auto;display: inline-block;"
-                >
-                kg
+    <style>
+        .cek, .cek .form-control {
+            font-size: 24px;
+            height: 32px;
+        }
+    </style>
+
+    <div style="border: 1px solid black;border-radius: 8px;padding: 32px;">
+        <form class="cek form-horizontal">
+            <div class="form-group">
+                <div class="col-xs-6 text-right">
+                    <input
+                        class="form-control text-right"
+                        id="berat"
+                        size="3"
+                        style="width: auto;display: inline-block;"
+                    >
+                    kg
+                </div>
+                <div class="col-xs-6">
+                    <input
+                        class="form-control text-right"
+                        id="tinggi"
+                        size="3"
+                        style="width: auto;display: inline-block;"
+                    >
+                    cm
+                </div>
             </div>
-            <div class="col-xs-6">
-                <input
-                    class="form-control text-right"
-                    id="tinggi"
-                    size="3"
-                    style="width: auto;display: inline-block;"
-                >
-                cm
-            </div>
-        </div>
-    </form>
-    <div id="result" class="hidden">
-        <hr>
-        <div class="row text-center">
-            <div class="col-sm-12">
-                WHO: <span id="result-who"></span>
-            </div>
-            <div class="col-sm-12">
-                WHO-WRPO: <span id="result-who-rpo"></span>
-            </div>
-            <div class="col-sm-12">
-                BB Ideal: 
-                <span class="text-info">
-                    <span id="bb-ideal"></span> kg
-                </span>
+        </form>
+        <div id="result" class="hidden">
+            <hr>
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    WHO: <span id="result-who"></span>
+                </div>
+                <div class="col-sm-12">
+                    WHO-WRPO: <span id="result-who-rpo"></span>
+                </div>
+                <div class="col-sm-12">
+                    BB Ideal: 
+                    <span class="text-info">
+                        <span id="bb-ideal"></span> kg
+                    </span>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.alphanum/1.0.24/jquery.alphanum.js">
 </script>

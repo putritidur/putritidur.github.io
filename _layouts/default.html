@@ -4,9 +4,9 @@
 
     <main>
         <div class="container">
-            <div class="row">
+            <div class="row masonry-container">
                 {% for post in paginator.posts %}
-                    <div class="col-md-4">
+                    <div class="col-md-4 item">
                         {% include tile.html %}
                     </div>
                 {% endfor %}
@@ -18,5 +18,16 @@
             </div>
         </div>
     </main>
+    
+    <script>
+      $(function() {
+        if ($('.masonry-container').length > 0) {
+          var msnry = new Masonry( '.masonry-container', {
+            // options
+          });
+        }
+      });
+    </script>
+
 
 {% include footer.html %}

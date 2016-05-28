@@ -47,7 +47,7 @@ Saya adalah Putri Pamungkassari, kata ibu bapak saya artinya
 Agaknya 9 sifat di atas sudah cukup menggambarkan diri saya.
 
 
-<div style="position: relative;height: 144px;">
+<div style="position: relative;">
     <div class="social-buttons">
         <a
             href="https://www.facebook.com/putripepee"

@@ -212,7 +212,7 @@ badan ideal demi kesehatan. Semoga bermanfaat
 <img src="https://twemoji.maxcdn.com/svg/1f609.svg" style="width: 32px;">
 .
 
-<div>
+<div class="hidden-sm hidden-xs">
     <h3 class="special">
         <span>
             Bagaimana dengan Kamu?

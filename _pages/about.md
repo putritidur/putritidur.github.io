@@ -46,8 +46,31 @@ Saya adalah Putri Pamungkassari, kata ibu bapak saya artinya
 
 Agaknya 9 sifat di atas sudah cukup menggambarkan diri saya.
 
-
-<div style="position: relative;">
+<div class="visible-xs">
+    <table style="font-size: 12px;">
+        <tr>
+            <td>Facebook</td>
+            <td style="padding: 0 8px;">:</td>
+            <td>Putri Pamungkassari</td>
+        </tr>
+        <tr>
+            <td>Twitter</td>
+            <td style="padding: 0 8px;">:</td>
+            <td>@putri_pepee</td>
+        </tr>
+        <tr>
+            <td>Instagram</td>
+            <td style="padding: 0 8px;">:</td>
+            <td>@putri_pepe</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td style="padding: 0 8px;">:</td>
+            <td>putri.pamungkassari@gmail.com</td>
+        </tr>
+    </table>
+</div>
+<div style="position: relative;" class="hidden-xs">
     <div class="social-buttons">
         <a
             href="https://www.facebook.com/putripepee"

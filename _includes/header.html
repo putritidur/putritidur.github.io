@@ -46,6 +46,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="{{ site.data.global.url }}/js/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" href="/thirdparty/emojify.js/css/basic/emojify.min.css" />
 
     <!-- JavaScript -->
     <script>
@@ -62,7 +63,9 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.1.0/masonry.pkgd.min.js"></script>
     <script src="/js/power.js"></script>
-    
+    <script src="/thirdparty/emojify.js/js/emojify.min.js"></script>
+
+
 </head>
 <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
 
